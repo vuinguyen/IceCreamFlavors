@@ -13,6 +13,7 @@
 		52825F9524F31FD500F28E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52825F9424F31FD500F28E7D /* Assets.xcassets */; };
 		52825F9824F31FD500F28E7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52825F9724F31FD500F28E7D /* Preview Assets.xcassets */; };
 		52825F9B24F31FD500F28E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52825F9924F31FD500F28E7D /* LaunchScreen.storyboard */; };
+		52825FA424F3272800F28E7D /* FlavorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825FA324F3272800F28E7D /* FlavorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52825F9724F31FD500F28E7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52825F9A24F31FD500F28E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52825F9C24F31FD500F28E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52825FA324F3272800F28E7D /* FlavorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		52825F8D24F31FD400F28E7D /* IceCreamFlavors */ = {
 			isa = PBXGroup;
 			children = (
+				52825F9224F31FD400F28E7D /* ContentView.swift */,
+				52825FA224F324D900F28E7D /* Model */,
 				52825F8E24F31FD400F28E7D /* AppDelegate.swift */,
 				52825F9024F31FD400F28E7D /* SceneDelegate.swift */,
-				52825F9224F31FD400F28E7D /* ContentView.swift */,
 				52825F9424F31FD500F28E7D /* Assets.xcassets */,
 				52825F9924F31FD500F28E7D /* LaunchScreen.storyboard */,
 				52825F9C24F31FD500F28E7D /* Info.plist */,
@@ -73,6 +76,14 @@
 				52825F9724F31FD500F28E7D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52825FA224F324D900F28E7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52825FA324F3272800F28E7D /* FlavorModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				52825F8F24F31FD400F28E7D /* AppDelegate.swift in Sources */,
 				52825F9124F31FD400F28E7D /* SceneDelegate.swift in Sources */,
 				52825F9324F31FD400F28E7D /* ContentView.swift in Sources */,
+				52825FA424F3272800F28E7D /* FlavorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
