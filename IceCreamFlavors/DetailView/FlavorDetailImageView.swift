@@ -9,13 +9,16 @@
 import SwiftUI
 
 struct FlavorDetailImageView: View {
+    var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("\(flavorItem.id)_Flavor")
+        .resizable()
+        .scaledToFit()
     }
 }
 
 struct FlavorDetailImageView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorDetailImageView()
+        FlavorDetailImageView(flavorItem: flavorOfMonthItem)
     }
 }

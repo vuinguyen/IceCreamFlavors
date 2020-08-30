@@ -12,16 +12,9 @@ struct FlavorDetailView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         VStack (alignment: .center){
-            Text(flavorItem.name)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-            Image("\(flavorItem.id)_Flavor")
-                .resizable()
-                .scaledToFit()
-            Text(flavorItem.description)
-                .padding(.leading, 5)
-                .padding(.trailing, 5)
-                .multilineTextAlignment(.center)
+            FlavorDetailTitleView(flavorItem: flavorItem)
+            FlavorDetailImageView(flavorItem: flavorItem)
+            FlavorDetailDescriptionView(flavorItem: flavorItem)
         }
     }
 }
@@ -35,3 +28,5 @@ struct FlavorDetailView_Previews: PreviewProvider {
         }
     }
 }
+
+

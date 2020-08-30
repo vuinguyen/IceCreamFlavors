@@ -16,6 +16,11 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .colorScheme(.dark)
+                .previewDevice("iPad mini (5th generation)")
+        }
     }
 }

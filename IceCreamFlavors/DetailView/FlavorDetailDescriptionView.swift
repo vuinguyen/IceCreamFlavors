@@ -9,13 +9,17 @@
 import SwiftUI
 
 struct FlavorDetailDescriptionView: View {
+    var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(flavorItem.description)
+        .padding(.leading, 5)
+        .padding(.trailing, 5)
+        .multilineTextAlignment(.center)
     }
 }
 
 struct FlavorDetailDescriptionView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorDetailDescriptionView()
+        FlavorDetailDescriptionView(flavorItem: flavorOfMonthItem)
     }
 }

@@ -11,11 +11,10 @@ import SwiftUI
 struct FlavorRowView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
-        HStack{
-            Image("\(flavorItem.id)_Flavor_100w")
-                .scaledToFit()
-            Text(flavorItem.name)
-            Spacer()
+        HStack {
+            FlavorRowImageView(flavorItem: flavorItem)
+            FlavorRowTitleView(flavorItem: flavorItem)
+            Spacer()    // add the spacer for an issue
         }
     }
 }

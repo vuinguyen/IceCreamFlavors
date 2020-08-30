@@ -9,13 +9,16 @@
 import SwiftUI
 
 struct FlavorRowImageView: View {
+    var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("\(flavorItem.id)_Flavor_100w")
+        .scaledToFit()
+        .shadow(color: .black, radius:10, x:5, y:5)
     }
 }
 
 struct FlavorRowImageView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorRowImageView()
+        FlavorRowImageView(flavorItem: flavorOfMonthItem)
     }
 }
