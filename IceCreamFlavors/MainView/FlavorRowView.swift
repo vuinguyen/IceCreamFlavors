@@ -13,7 +13,10 @@ struct FlavorRowView: View {
     var body: some View {
         HStack {
             FlavorRowImageView(flavorItem: flavorItem)
-            FlavorRowTitleView(flavorItem: flavorItem)
+            VStack (alignment: .leading){
+                FlavorRowTitleView(flavorItem: flavorItem)
+                RatingsView(count: flavorItem.count)
+            }
             Spacer()    // add the spacer for an issue
         }
     }

@@ -22,6 +22,7 @@
 		52918D0324FBEA2000DE2872 /* FlavorDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918D0224FBEA2000DE2872 /* FlavorDetailDescriptionView.swift */; };
 		52918D0524FBEB3000DE2872 /* FlavorRowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918D0424FBEB3000DE2872 /* FlavorRowImageView.swift */; };
 		52918D0724FBEBBC00DE2872 /* FlavorRowTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918D0624FBEBBC00DE2872 /* FlavorRowTitleView.swift */; };
+		52918D0924FBF1BD00DE2872 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918D0824FBF1BD00DE2872 /* RatingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		52918D0224FBEA2000DE2872 /* FlavorDetailDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorDetailDescriptionView.swift; sourceTree = "<group>"; };
 		52918D0424FBEB3000DE2872 /* FlavorRowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorRowImageView.swift; sourceTree = "<group>"; };
 		52918D0624FBEBBC00DE2872 /* FlavorRowTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorRowTitleView.swift; sourceTree = "<group>"; };
+		52918D0824FBF1BD00DE2872 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				52918CF724FB199600DE2872 /* FlavorRowView.swift */,
 				52918D0424FBEB3000DE2872 /* FlavorRowImageView.swift */,
 				52918D0624FBEBBC00DE2872 /* FlavorRowTitleView.swift */,
+				52918D0824FBF1BD00DE2872 /* RatingsView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				52918D0724FBEBBC00DE2872 /* FlavorRowTitleView.swift in Sources */,
 				52825F8F24F31FD400F28E7D /* AppDelegate.swift in Sources */,
 				52825F9124F31FD400F28E7D /* SceneDelegate.swift in Sources */,
+				52918D0924FBF1BD00DE2872 /* RatingsView.swift in Sources */,
 				52918D0524FBEB3000DE2872 /* FlavorRowImageView.swift in Sources */,
 				52918CF824FB199600DE2872 /* FlavorRowView.swift in Sources */,
 				52825F9324F31FD400F28E7D /* ContentView.swift in Sources */,
