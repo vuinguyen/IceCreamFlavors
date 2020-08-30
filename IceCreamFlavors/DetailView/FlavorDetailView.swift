@@ -31,6 +31,7 @@ struct FlavorDetailView_Previews: PreviewProvider {
         Group {
             FlavorDetailView(flavorItem: flavorOfMonthItem)
             FlavorDetailView(flavorItem: FlavorModel().flavors[5])
+            .previewDevice("iPad mini 4")
         }
     }
 }

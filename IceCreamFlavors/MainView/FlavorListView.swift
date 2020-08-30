@@ -17,6 +17,7 @@ struct FlavorListView: View {
                     FlavorRowView(flavorItem: flavor)
                 }
             }
+            .navigationBarTitle("Ice Cream!")
         }
     }
 }
