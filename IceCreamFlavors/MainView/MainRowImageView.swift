@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct FlavorRowImageView: View {
+struct MainRowImageView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         Image("\(flavorItem.id)_Flavor_100w")
@@ -19,6 +19,6 @@ struct FlavorRowImageView: View {
 
 struct FlavorRowImageView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorRowImageView(flavorItem: flavorOfMonthItem)
+        MainRowImageView(flavorItem: flavorOfMonthItem)
     }
 }

@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-struct FlavorListView: View {
+struct MainListView: View {
     var flavorList = FlavorModel().flavors
     var body: some View {
         NavigationView{
             List(flavorList) { flavor in
-                NavigationLink(destination: FlavorDetailView(flavorItem: flavor)) {
-                    FlavorRowView(flavorItem: flavor)
+                NavigationLink(destination: DetailFullView(flavorItem: flavor)) {
+                    MainRowView(flavorItem: flavor)
                 }
             }
             .navigationBarTitle("Ice Cream!")
@@ -24,6 +24,6 @@ struct FlavorListView: View {
 
 struct FlavorListView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorListView()
+        MainListView()
     }
 }

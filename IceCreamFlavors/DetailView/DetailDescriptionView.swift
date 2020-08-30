@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct FlavorDetailDescriptionView: View {
+struct DetailDescriptionView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         Text(flavorItem.description)
@@ -20,6 +20,6 @@ struct FlavorDetailDescriptionView: View {
 
 struct FlavorDetailDescriptionView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorDetailDescriptionView(flavorItem: flavorOfMonthItem)
+        DetailDescriptionView(flavorItem: flavorOfMonthItem)
     }
 }

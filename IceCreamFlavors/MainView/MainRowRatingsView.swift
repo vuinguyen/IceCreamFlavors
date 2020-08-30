@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct RatingsView: View {
+struct MainRowRatingsView: View {
     var count:Int = 4
     var rating:[String]{
         let symbolName = "star.fill"
@@ -27,6 +27,6 @@ struct RatingsView: View {
 
 struct RatingsView_Previews: PreviewProvider {
     static var previews: some View {
-        RatingsView(count: 5)
+        MainRowRatingsView(count: 5)
     }
 }

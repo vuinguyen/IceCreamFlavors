@@ -1,5 +1,5 @@
 //
-//  FlavorDetailTitleView.swift
+//  FlavorRowTitleView.swift
 //  IceCreamFlavors
 //
 //  Created by Vui Nguyen on 8/30/20.
@@ -8,17 +8,15 @@
 
 import SwiftUI
 
-struct FlavorDetailTitleView: View {
+struct MainRowTitleView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         Text(flavorItem.name)
-            .fontWeight(.bold)
-            .multilineTextAlignment(.center)
     }
 }
 
-struct FlavorDetailTitleView_Previews: PreviewProvider {
+struct FlavorRowTitleView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorDetailTitleView(flavorItem: flavorOfMonthItem)
+        MainRowTitleView(flavorItem: flavorOfMonthItem)
     }
 }

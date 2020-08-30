@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-struct FlavorDetailView: View {
+struct DetailFullView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         VStack (alignment: .center){
-            FlavorDetailTitleView(flavorItem: flavorItem)
-            FlavorDetailImageView(flavorItem: flavorItem)
-            FlavorDetailDescriptionView(flavorItem: flavorItem)
+            DetailTitleView(flavorItem: flavorItem)
+            DetailImageView(flavorItem: flavorItem)
+            DetailDescriptionView(flavorItem: flavorItem)
         }
     }
 }
@@ -22,8 +22,8 @@ struct FlavorDetailView: View {
 struct FlavorDetailView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            FlavorDetailView(flavorItem: flavorOfMonthItem)
-            FlavorDetailView(flavorItem: FlavorModel().flavors[5])
+            DetailFullView(flavorItem: flavorOfMonthItem)
+            DetailFullView(flavorItem: FlavorModel().flavors[5])
             .previewDevice("iPad mini 4")
         }
     }

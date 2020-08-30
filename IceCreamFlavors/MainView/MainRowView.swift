@@ -8,22 +8,22 @@
 
 import SwiftUI
 
-struct FlavorRowView: View {
+struct MainRowView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         HStack {
-            FlavorRowImageView(flavorItem: flavorItem)
+            MainRowImageView(flavorItem: flavorItem)
             VStack (alignment: .leading){
-                FlavorRowTitleView(flavorItem: flavorItem)
-                RatingsView(count: flavorItem.count)
+                MainRowTitleView(flavorItem: flavorItem)
+                MainRowRatingsView(count: flavorItem.count)
             }
             Spacer()    // add the spacer for an issue
         }
     }
 }
 
-struct FlavorRowView_Previews: PreviewProvider {
+struct MainRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorRowView(flavorItem: flavorOfMonthItem)
+        MainRowView(flavorItem: flavorOfMonthItem)
     }
 }

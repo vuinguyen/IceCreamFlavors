@@ -1,5 +1,5 @@
 //
-//  FlavorRowTitleView.swift
+//  FlavorDetailImageView.swift
 //  IceCreamFlavors
 //
 //  Created by Vui Nguyen on 8/30/20.
@@ -8,15 +8,17 @@
 
 import SwiftUI
 
-struct FlavorRowTitleView: View {
+struct DetailImageView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
-        Text(flavorItem.name)
+        Image("\(flavorItem.id)_Flavor")
+        .resizable()
+        .scaledToFit()
     }
 }
 
-struct FlavorRowTitleView_Previews: PreviewProvider {
+struct FlavorDetailImageView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorRowTitleView(flavorItem: flavorOfMonthItem)
+        DetailImageView(flavorItem: flavorOfMonthItem)
     }
 }
