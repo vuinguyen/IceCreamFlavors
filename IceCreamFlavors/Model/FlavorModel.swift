@@ -16,6 +16,8 @@ struct FlavorItem: Identifiable {
     var description: String
 }
 
+let flavorOfMonthItem = FlavorItem(id: 4, name: "Triple Mango", description: "Mango ice cream with real mango pieces, swirled with a rich mango sorbet and finished with a sweet mango ribbon.")
+
 struct FlavorModel {
     var flavors:[FlavorItem] = [
         FlavorItem(id: 0, name: "Mom's Makin' Cookies", description: "Mom's secret recipe of brown sugar flavored ice cream filled with chocolate chip cookie pieces, chocolate flavored chips, and a delicious cookie dough batter flavored ribbon."),
