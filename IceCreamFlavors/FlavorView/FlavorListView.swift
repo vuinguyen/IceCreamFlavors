@@ -11,8 +11,12 @@ import SwiftUI
 struct FlavorListView: View {
     var flavorList = FlavorModel().flavors
     var body: some View {
-        List(flavorList) { flavor in
-            FlavorRowView(flavorItem: flavor)
+        NavigationView{
+            List(flavorList) { flavor in
+                NavigationLink(destination: FlavorDetailView(flavorItem: flavor)) {
+                    FlavorRowView(flavorItem: flavor)
+                }
+            }
         }
     }
 }

@@ -22,6 +22,6 @@ struct FlavorRowView: View {
 
 struct FlavorRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FlavorRowView()
+        FlavorRowView(flavorItem: flavorOfMonthItem)
     }
 }

@@ -16,6 +16,7 @@
 		52825FA424F3272800F28E7D /* FlavorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825FA324F3272800F28E7D /* FlavorModel.swift */; };
 		52918CF824FB199600DE2872 /* FlavorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918CF724FB199600DE2872 /* FlavorRowView.swift */; };
 		52918CFA24FB19AA00DE2872 /* FlavorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918CF924FB19AA00DE2872 /* FlavorListView.swift */; };
+		52918CFC24FB323500DE2872 /* FlavorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918CFB24FB323500DE2872 /* FlavorDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		52825FA324F3272800F28E7D /* FlavorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorModel.swift; sourceTree = "<group>"; };
 		52918CF724FB199600DE2872 /* FlavorRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorRowView.swift; sourceTree = "<group>"; };
 		52918CF924FB19AA00DE2872 /* FlavorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorListView.swift; sourceTree = "<group>"; };
+		52918CFB24FB323500DE2872 /* FlavorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				52918CF924FB19AA00DE2872 /* FlavorListView.swift */,
 				52918CF724FB199600DE2872 /* FlavorRowView.swift */,
+				52918CFB24FB323500DE2872 /* FlavorDetailView.swift */,
 			);
 			path = FlavorView;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				52825F9124F31FD400F28E7D /* SceneDelegate.swift in Sources */,
 				52918CF824FB199600DE2872 /* FlavorRowView.swift in Sources */,
 				52825F9324F31FD400F28E7D /* ContentView.swift in Sources */,
+				52918CFC24FB323500DE2872 /* FlavorDetailView.swift in Sources */,
 				52825FA424F3272800F28E7D /* FlavorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
