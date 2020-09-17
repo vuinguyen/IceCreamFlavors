@@ -14,6 +14,7 @@ struct DetailFullView: View {
         VStack (alignment: .center){
             DetailTitleView(flavorItem: flavorItem)
             DetailImageView(flavorItem: flavorItem)
+            DetailRatingsView(count: flavorItem.count)
             DetailDescriptionView(flavorItem: flavorItem)
         }
     }

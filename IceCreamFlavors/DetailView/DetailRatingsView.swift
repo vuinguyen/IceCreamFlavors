@@ -1,14 +1,14 @@
 //
-//  RatingsView.swift
+//  DetailRatingsView.swift
 //  IceCreamFlavors
 //
-//  Created by Vui Nguyen on 8/30/20.
+//  Created by Vui Nguyen on 9/16/20.
 //  Copyright © 2020 SunfishEmpire. All rights reserved.
 //
 
 import SwiftUI
 
-struct MainRowRatingsView: View {
+struct DetailRatingsView: View {
     var count:Int = 4
     var rating:[String]{
         let symbolName = "star.fill"
@@ -22,10 +22,11 @@ struct MainRowRatingsView: View {
             }
         }
     }
+
 }
 
-struct RatingsView_Previews: PreviewProvider {
+struct DetailRatingsView_Previews: PreviewProvider {
     static var previews: some View {
-        MainRowRatingsView(count: 5)
+        DetailRatingsView(count: 3)
     }
 }
