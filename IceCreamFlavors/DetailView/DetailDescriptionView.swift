@@ -14,7 +14,7 @@ struct DetailDescriptionView: View {
         Text(flavorItem.description)
         .padding(.leading, 5)
         .padding(.trailing, 5)
-        .multilineTextAlignment(.center)
+        //.multilineTextAlignment(.center)
     }
 }
 

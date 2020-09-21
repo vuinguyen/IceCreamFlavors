@@ -12,6 +12,7 @@ struct MainRowTitleView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         Text(flavorItem.name)
+            //.fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
     }
 }
 

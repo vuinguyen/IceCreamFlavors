@@ -17,7 +17,7 @@ struct MainRowView: View {
                 MainRowTitleView(flavorItem: flavorItem)
                 MainRowRatingsView(count: flavorItem.count)
             }
-            Spacer()    // add the spacer for an issue
+            //Spacer()    
         }
     }
 }
@@ -25,5 +25,6 @@ struct MainRowView: View {
 struct MainRowView_Previews: PreviewProvider {
     static var previews: some View {
         MainRowView(flavorItem: flavorOfMonthItem)
+        // Maybe add another preview here?
     }
 }

@@ -17,7 +17,7 @@ struct MainListView: View {
                     MainRowView(flavorItem: flavor)
                 }
             }
-            .navigationBarTitle("Ice Cream!")
+            //.navigationBarTitle("Ice Cream!")
         }
     }
 }
