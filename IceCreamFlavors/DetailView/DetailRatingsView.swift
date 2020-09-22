@@ -18,7 +18,7 @@ struct DetailRatingsView: View {
         HStack {
             ForEach(rating, id:\.self){item in
                 Image(systemName: item)
-                    //.foregroundColor(.green)
+                    .foregroundColor(.green)
             }
         }
     }
