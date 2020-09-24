@@ -6,10 +6,10 @@ Contribution Guidelines:
 3. Download your copied project onto your computer (clone)
 4. Create a space that will hold your code changes (branch)
 5. Make code changes in your branch, on your computer
-6. Save your local code changes in a group (commit)
+6. Save your local code changes in a group (add , commit)
 7. Push group of changes back to your online fork (push)
 8. Submit a request to maintainer of project for them to add your code changes to the original project (PR, or pull request)
-9. Code review, if needed
+9. Code review, if needed (maintainer approves PR)
 10. Reviewer adds your code to the original project (PR merged)
 
 IceCreamFlavor is a main-detail app that lists ice cream flavors, built in SwiftUI.
