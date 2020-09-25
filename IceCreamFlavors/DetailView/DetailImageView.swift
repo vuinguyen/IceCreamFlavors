@@ -14,7 +14,7 @@ struct DetailImageView: View {
         Image("\(flavorItem.id)_Flavor")
         .resizable()
         .scaledToFit()
-        //.shadow(color: .black, radius:10, x:5, y:5)
+        .shadow(color: .black, radius:15, x:5, y:5)
     }
 }
 
