@@ -13,7 +13,9 @@ struct DetailFullView: View {
     var body: some View {
         VStack (alignment: .center){
             DetailTitleView(flavorItem: flavorItem)
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             DetailImageView(flavorItem: flavorItem)
+               .border(Color.orange, width: 5)
             DetailRatingsView(count: flavorItem.count)
             DetailDescriptionView(flavorItem: flavorItem)
         }
