@@ -12,9 +12,10 @@ struct DetailDescriptionView: View {
     var flavorItem: FlavorItem = flavorOfMonthItem
     var body: some View {
         Text(flavorItem.description)
+            .foregroundColor(Color.blue)
         .padding(.leading, 5)
         .padding(.trailing, 5)
-        //.multilineTextAlignment(.center)
+        .multilineTextAlignment(.center)
     }
 }
 
