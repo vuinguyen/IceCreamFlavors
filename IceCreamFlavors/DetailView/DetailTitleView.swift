@@ -13,7 +13,8 @@ struct DetailTitleView: View {
     var body: some View {
         Text(flavorItem.name)
             .fontWeight(.bold)
-            //.multilineTextAlignment(.center)
+            .multilineTextAlignment(.center)
+            .font(.largeTitle)
     }
 }
 
