@@ -18,7 +18,8 @@ struct DetailRatingsView: View {
         HStack {
             ForEach(rating, id:\.self){item in
                 Image(systemName: item)
-                    .foregroundColor(.green)
+                    .foregroundColor(.purple)
+                    .blur(radius: 5.0)
             }
         }
     }
@@ -27,6 +28,10 @@ struct DetailRatingsView: View {
 
 struct DetailRatingsView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailRatingsView(count: 3)
+        Group {
+            DetailRatingsView(count: 3)
+            DetailRatingsView(count: 3)
+                .preferredColorScheme(.dark)
+        }
     }
 }
